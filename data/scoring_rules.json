@@ -1,0 +1,99 @@
+{
+  "scoring_rules": {
+    "response_types": {
+      "very_important": {
+        "weight": 5,
+        "description": "매우 중요"
+      },
+      "important": {
+        "weight": 4,
+        "description": "중요"
+      },
+      "neutral": {
+        "weight": 3,
+        "description": "보통"
+      },
+      "not_important": {
+        "weight": 2,
+        "description": "별로 중요하지 않음"
+      },
+      "not_important_at_all": {
+        "weight": 1,
+        "description": "전혀 중요하지 않음"
+      }
+    },
+    "category_weights": {
+      "usage_purpose": 1.2,
+      "performance": 1.1,
+      "storage": 0.9,
+      "display": 0.8,
+      "portability": 1.0,
+      "connectivity": 0.7,
+      "audio_video": 0.6,
+      "keyboard_input": 0.7,
+      "os_ecosystem": 1.3,
+      "build_quality": 0.8,
+      "cooling_thermal": 0.9,
+      "budget": 1.4,
+      "warranty_support": 0.7,
+      "upgrade_repair": 0.6,
+      "specific_features": 0.5,
+      "brand_preference": 0.8,
+      "environmental": 0.4
+    },
+    "priority_thresholds": {
+      "critical": 4.5,
+      "high": 3.5,
+      "medium": 2.5,
+      "low": 1.5
+    }
+  },
+  "budget_ranges": {
+    "budget_categories": [
+      {
+        "name": "저가형",
+        "min": 0,
+        "max": 1000000,
+        "label": "~100만원"
+      },
+      {
+        "name": "중간가",
+        "min": 1000000,
+        "max": 2000000,
+        "label": "100~200만원"
+      },
+      {
+        "name": "프리미엄",
+        "min": 2000000,
+        "max": 999999999,
+        "label": "200만원 이상"
+      }
+    ]
+  },
+  "performance_levels": {
+    "cpu_performance": {
+      "entry": "일반 업무용 (저전력)",
+      "mid": "개발/멀티태스킹 (중급)",
+      "high": "게이밍/영상 편집 (고성능)",
+      "extreme": "AI/ML 학습 (극고성능)"
+    },
+    "gpu_performance": {
+      "integrated": "통합 그래픽",
+      "discrete_entry": "입문용 독립 GPU",
+      "discrete_mid": "중급 독립 GPU",
+      "discrete_high": "고성능 독립 GPU"
+    },
+    "ram_requirements": {
+      "8gb": "기본 업무용",
+      "16gb": "멀티태스킹/개발",
+      "32gb": "전문 작업/가상화",
+      "64gb": "극한 작업/AI학습"
+    },
+    "storage_requirements": {
+      "256gb": "기본 SSD",
+      "512gb": "표준 SSD",
+      "1tb": "충분한 저장소",
+      "2tb": "대용량 작업용"
+    }
+  }
+}
