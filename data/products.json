@@ -1,0 +1,304 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "MacBook Pro 16 M3 Max",
+      "manufacturer": "Apple",
+      "category": "프리미엄",
+      "price": 3990000,
+      "specs": {
+        "cpu": "Apple M3 Max",
+        "gpu": "10-core GPU",
+        "ram": 36,
+        "storage": 1000,
+        "display": {
+          "size": 16,
+          "resolution": "3456x2234",
+          "type": "Liquid Retina XDR",
+          "refresh_rate": 120
+        },
+        "weight": 2.15,
+        "battery_hours": 18
+      },
+      "features": {
+        "performance": 95,
+        "portability": 40,
+        "display_quality": 98,
+        "connectivity": 85,
+        "build_quality": 95,
+        "warranty": 1
+      },
+      "tags": ["프리미엘", "고성능", "영상편집", "개발", "디자인"]
+    },
+    {
+      "id": 2,
+      "name": "MacBook Air M2",
+      "manufacturer": "Apple",
+      "category": "프리미엄",
+      "price": 1890000,
+      "specs": {
+        "cpu": "Apple M2",
+        "gpu": "8-core GPU",
+        "ram": 16,
+        "storage": 512,
+        "display": {
+          "size": 13.6,
+          "resolution": "2560x1600",
+          "type": "Liquid Retina",
+          "refresh_rate": 60
+        },
+        "weight": 1.24,
+        "battery_hours": 15
+      },
+      "features": {
+        "performance": 80,
+        "portability": 92,
+        "display_quality": 85,
+        "connectivity": 70,
+        "build_quality": 90,
+        "warranty": 1
+      },
+      "tags": ["휴대성", "초경량", "개발", "학생", "에코시스템"]
+    },
+    {
+      "id": 3,
+      "name": "Dell XPS 15",
+      "manufacturer": "Dell",
+      "category": "프리미엄",
+      "price": 2490000,
+      "specs": {
+        "cpu": "Intel Core i9-13900H",
+        "gpu": "NVIDIA RTX 4090",
+        "ram": 32,
+        "storage": 1000,
+        "display": {
+          "size": 15.6,
+          "resolution": "3840x2400",
+          "type": "OLED",
+          "refresh_rate": 120
+        },
+        "weight": 1.99,
+        "battery_hours": 13
+      },
+      "features": {
+        "performance": 93,
+        "portability": 60,
+        "display_quality": 96,
+        "connectivity": 88,
+        "build_quality": 88,
+        "warranty": 2
+      },
+      "tags": ["고성능", "디자인", "영상편집", "게이밍", "4K"]
+    },
+    {
+      "id": 4,
+      "name": "Lenovo ThinkPad X1 Carbon",
+      "manufacturer": "Lenovo",
+      "category": "중간가",
+      "price": 1590000,
+      "specs": {
+        "cpu": "Intel Core i7-1365U",
+        "gpu": "Intel Iris Xe",
+        "ram": 16,
+        "storage": 512,
+        "display": {
+          "size": 14,
+          "resolution": "2560x1600",
+          "type": "IPS",
+          "refresh_rate": 60
+        },
+        "weight": 1.28,
+        "battery_hours": 16
+      },
+      "features": {
+        "performance": 75,
+        "portability": 85,
+        "display_quality": 80,
+        "connectivity": 90,
+        "build_quality": 92,
+        "warranty": 3
+      },
+      "tags": ["비즈니스", "휴대성", "내구성", "배터리", "AS우수"]
+    },
+    {
+      "id": 5,
+      "name": "Samsung Galaxy Book3 Pro",
+      "manufacturer": "Samsung",
+      "category": "프리미엄",
+      "price": 2290000,
+      "specs": {
+        "cpu": "Intel Core i9-13900H",
+        "gpu": "NVIDIA RTX 4050",
+        "ram": 32,
+        "storage": 1000,
+        "display": {
+          "size": 16,
+          "resolution": "2560x1600",
+          "type": "AMOLED",
+          "refresh_rate": 120
+        },
+        "weight": 1.87,
+        "battery_hours": 18
+      },
+      "features": {
+        "performance": 90,
+        "portability": 65,
+        "display_quality": 94,
+        "connectivity": 85,
+        "build_quality": 87,
+        "warranty": 2
+      },
+      "tags": ["고성능", "AMOLED", "배터리", "한국산", "멀티미디어"]
+    },
+    {
+      "id": 6,
+      "name": "ASUS ROG Zephyrus G16",
+      "manufacturer": "ASUS",
+      "category": "프리미엄",
+      "price": 2990000,
+      "specs": {
+        "cpu": "Intel Core i9-13980HX",
+        "gpu": "NVIDIA RTX 4090",
+        "ram": 32,
+        "storage": 1000,
+        "display": {
+          "size": 16,
+          "resolution": "2560x1600",
+          "type": "Mini-LED",
+          "refresh_rate": 240
+        },
+        "weight": 2.5,
+        "battery_hours": 12
+      },
+      "features": {
+        "performance": 98,
+        "portability": 35,
+        "display_quality": 95,
+        "connectivity": 90,
+        "build_quality": 85,
+        "warranty": 2
+      },
+      "tags": ["게이밍", "극고성능", "120Hz+", "RGB", "냉각"]
+    },
+    {
+      "id": 7,
+      "name": "Microsoft Surface Laptop 5",
+      "manufacturer": "Microsoft",
+      "category": "중간가",
+      "price": 1690000,
+      "specs": {
+        "cpu": "Intel Core i7-1255U",
+        "gpu": "Intel Iris Xe",
+        "ram": 16,
+        "storage": 512,
+        "display": {
+          "size": 13.5,
+          "resolution": "2256x1504",
+          "type": "PixelSense",
+          "refresh_rate": 60
+        },
+        "weight": 1.30,
+        "battery_hours": 17
+      },
+      "features": {
+        "performance": 70,
+        "portability": 88,
+        "display_quality": 85,
+        "connectivity": 65,
+        "build_quality": 92,
+        "warranty": 2
+      },
+      "tags": ["초경량", "충전식", "터치스크린", "배터리", "기본성능"]
+    },
+    {
+      "id": 8,
+      "name": "LG Gram 17",
+      "manufacturer": "LG",
+      "category": "중간가",
+      "price": 1890000,
+      "specs": {
+        "cpu": "Intel Core i7-1365U",
+        "gpu": "Intel Iris Xe",
+        "ram": 16,
+        "storage": 512,
+        "display": {
+          "size": 17,
+          "resolution": "2560x1600",
+          "type": "IPS",
+          "refresh_rate": 60
+        },
+        "weight": 1.35,
+        "battery_hours": 19
+      },
+      "features": {
+        "performance": 72,
+        "portability": 80,
+        "display_quality": 82,
+        "connectivity": 80,
+        "build_quality": 85,
+        "warranty": 2
+      },
+      "tags": ["초경량", "17인치", "배터리", "대화면", "휴대성"]
+    },
+    {
+      "id": 9,
+      "name": "HP Pavilion 15",
+      "manufacturer": "HP",
+      "category": "저가형",
+      "price": 890000,
+      "specs": {
+        "cpu": "AMD Ryzen 5 5500",
+        "gpu": "Radeon Vega",
+        "ram": 8,
+        "storage": 256,
+        "display": {
+          "size": 15.6,
+          "resolution": "1920x1080",
+          "type": "IPS",
+          "refresh_rate": 60
+        },
+        "weight": 1.75,
+        "battery_hours": 8
+      },
+      "features": {
+        "performance": 55,
+        "portability": 50,
+        "display_quality": 65,
+        "connectivity": 75,
+        "build_quality": 70,
+        "warranty": 1
+      },
+      "tags": ["저가형", "기본", "일반업무", "학생", "가성비"]
+    },
+    {
+      "id": 10,
+      "name": "Acer Swift 3",
+      "manufacturer": "Acer",
+      "category": "중간가",
+      "price": 1290000,
+      "specs": {
+        "cpu": "Intel Core i5-1235U",
+        "gpu": "Intel Iris Xe",
+        "ram": 8,
+        "storage": 512,
+        "display": {
+          "size": 14,
+          "resolution": "2560x1600",
+          "type": "IPS",
+          "refresh_rate": 60
+        },
+        "weight": 1.41,
+        "battery_hours": 12
+      },
+      "features": {
+        "performance": 65,
+        "portability": 82,
+        "display_quality": 78,
+        "connectivity": 80,
+        "build_quality": 75,
+        "warranty": 2
+      },
+      "tags": ["가성비", "휴대성", "개발", "학생", "일반"]
+    }
+  ]
+}
